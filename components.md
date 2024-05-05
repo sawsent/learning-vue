@@ -141,3 +141,23 @@ h1 {
 }
 </style>
 ```
+
+### Combined
+
+You can combine styles and scopes in the same component, for example you can have both global and local style in the same component.
+
+```vue
+<!-- global styling -->
+<style>
+h1 {
+	color: red;
+}
+</style>
+
+<!-- local styling -->
+<style scoped>
+h1 {
+	color: blue;
+}
+</style>
+```
